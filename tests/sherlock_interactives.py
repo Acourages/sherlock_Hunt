@@ -34,5 +34,6 @@ class Interactives:
                         matching_files.append(file_path)
         return matching_files
 
+
 class InteractivesSubprocessError(Exception):
     pass
